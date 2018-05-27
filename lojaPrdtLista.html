@@ -45,22 +45,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="agileits_header">
 		<div class="container">
 			<div class="w3l_offers">
-				<p>SALE UP TO 70% OFF. USE CODE "SALE70%" . <a href="products.html">SHOP NOW</a></p>
+				<h3><a href="products.html">V-Shop</a></h3>
 			</div>
 			<div class="agile-login">
 				<ul>
-					<li><a href="registered.html"> Criar Conta </a></li>
-					<li><a href="login.html">Entrar</a></li>
-					<li><a href="contact.html">Contato</a></li>
-					
+					<!--<li><a href="registered.html"> Criar Conta </a></li>-->
+					<li><a href="login.html">Sair</a></li>
+					<li><a href="contact.html">Contato</a></li>	
 				</ul>
-			</div>
-			<div class="product_list_header">  
-					<form action="#" method="post" class="last"> 
-						<input type="hidden" name="cmd" value="_cart">
-						<input type="hidden" name="display" value="1">
-						<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
-					</form>  
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -70,14 +62,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 		<div class="w3ls_logo_products_left1">
 				<ul class="phone_email">
-					<li><i class="fa fa-phone" aria-hidden="true"></i>Order online or call us : (+0123) 234 567</li>
+					<!-- <li><i class="fa fa-phone" aria-hidden="true"></i>Order online or call us : (+0123) 234 567</li> -->
 					
 				</ul>
 			</div>
-			<div class="w3ls_logo_products_left">
-				<h1><a href="index.html">V-Shop</a></h1>
+			<div class="w3ls_logo_products_left" >
+				<h1><a href="index.html" style="color: #33cccc;">Nome da Loja</a></h1>
 			</div>
-		<div class="w3l_search">
+		<!-- <div class="w3l_search">
 			<form action="#" method="post">
 				<input type="search" name="Search" placeholder="Procure por um produto..." required="">
 				<button type="submit" class="btn btn-default search" aria-label="Left Align">
@@ -85,13 +77,42 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</button>
 				<div class="clearfix"></div>
 			</form>
-		</div>
+		</div> -->
 			
 			<div class="clearfix"> </div>
 		</div>
 	</div>
 <!-- //header -->
 <!-- navigation -->
+	<div class="navigation-agileits" style="background-color: #33cccc;">
+		<div class="container">
+			<nav class="navbar navbar-default">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header nav_2">
+								<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div> 
+							<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+								<ul class="nav navbar-nav">
+									<li class="active"><a href="loja.html" class="act">Principal</a></li>	
+									<!-- Mega Menu -->
+									<li class="dropdown">
+									<li class="active"><a href="lojaPrdtAdd.html" class="act">Adicionar produtos</a></li>	
+									<!-- Mega Menu -->
+									<li class="dropdown">
+									<li class="active"><a href="lojaPrdtLista.html" class="act">Lista de produtos</a></li>	
+									<!-- Mega Menu -->
+									<li class="dropdown">
+									<li class="active"><a href="lojaHistoricoVendas.html" class="act">Histórico de vendas</a></li>	
+									<!-- Mega Menu -->
+									<li class="dropdown">	
+							</nav>
+			</div>
+		</div>
 		
 <!-- //navigation -->
 <!-- breadcrumbs -->
@@ -99,56 +120,64 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
 				<li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Principal</a></li>
-				<li class="active">Registro</li>
+				<li class="active">Nome da Loja</li>
+				<li class="active">Lista de Produtos</li>
 			</ol>
 		</div>
 	</div>
-<!-- //breadcrumbs -->
-<!-- register -->
-	<div class="register">
-		<div class="container">
-			<h2>Registre-se</h2>
-			<div class="login-form-grids">
-				<h5>Informações do perfil</h5>
-				<div id="login-options" style="height: 50px;"> 
-						<label class="radio-inline" style="color: chocolate;"><input type="radio" name="optradio">Cliente</label>
-						<label class="radio-inline" style="color: #33cccc;"> <input type="radio" name="optradio">Loja</label>
-				</div>
-				<form action="#" method="post">
-					<input type="text" placeholder="Nome completo ex: Castiel, Umbrella Corporation..." required=" " >
-					<input type="text" placeholder="Cpf/Cnpj ex: 192.168.162-80..." required=" " >
-					<input type="text" placeholder="Data de Nascimento/Fundação ex: 01/05/1999..." required=" " >
-					<input style="margin-top: 13px;" type="text" placeholder="Número ex: 84996785743..." required=" " >
-				</form>
-				<div class="register-check-box">
-					<div class="check">
-						<label class="checkbox"><input type="checkbox" name="checkbox"><i> </i>Quero receber novidades e promoções por email</label>
-					</div>
-				</div>
-				<h6>Informações da Conta</h6>
-					<form action="#" method="post">
-					<input type="email" placeholder="Endereço de E-mail" required=" " >
-					<input type="password" placeholder="Senha" required=" " >
-					<input type="password" placeholder="Confirmar senha" required=" " >
-					<div class="register-check-box">
-						<div class="check">
-							<label class="checkbox"><input type="checkbox" name="checkbox"><i> </i>Estou pronto para fazer minhas compras!</label>
-						</div>
-					</div>
-					<input type="submit" value="Concluir">
-					<p style="margin-top: 20px;"><a href="index.html">Voltar para a tela Principal<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></p>
-				</form>
-			</div>
-					
-		</div>
+
+<!-- //Jumbotron -->
+	<div class="container" style="padding-bottom: 20px;">
+		 <!-- //form para adicionar os itens -->
+       <table class="table table-bordered" style="width: 800px;">
+            <thead class="thead-dark">
+              <tr class="bg-info">
+                <th scope="col">id</th>
+					 <th scope="col">Código</th>
+					 <th scope="col">Produto</th>
+                <th scope="col">Preço</th>
+					 <th scope="col">Categoria</th>
+					 <th scope="col">Quantidade</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>1904982-6</td>
+                <td>Iphone9</td>
+					 <td>650$</td>
+					 <td>Smartphone</td>
+					 <td>52</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>504982-6</td>
+                <td>Geladeira cce 4b2</td>
+					 <td>872$</td>
+					 <td>Eletrodoméstico</td>
+					 <td>22</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>295893-6</td>
+                <td>Sofá Lacoste Aspire-x</td>
+					 <td>100$</td>
+					 <td>Móvel</td>
+					 <td>67</td>
+              </tr>
+            </tbody>
+          </table>
+		 <!-- //form para adicionar os itens -->
 	</div>
-<!-- //register -->
+ </div>
+ <!-- //Jumbotron -->
 <!-- //footer -->
 <div class="footer">
 		<div class="container">
 			<div class="w3_footer_grids">
 				<div class="col-md-3 w3_footer_grid">
-						<h3>Contato</h3>						
+						<h3>Contato</h3>
+						
 						<ul class="address">
 							<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>1234k Avenue, 4th block, <span>New York City.</span></li>
 							<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
@@ -187,10 +216,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		
 		<div class="footer-copy">
 			
-			<div class="container">
-				<p>© 2017 Super Market. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
-			</div>
-		</div>
+            <div class="container">
+               <p>© 2018 V-Shop. Trending Systems Integrated | <a href="http://w3layouts.com/">W3layouts</a></p>
+            </div>
+         </div>
 		
 	</div>	
 	<div class="footer-botm">
